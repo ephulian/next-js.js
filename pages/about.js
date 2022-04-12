@@ -1,12 +1,10 @@
-import Head from 'next/head';
 import React from 'react';
+import Meta from '../components/Meta';
 
 export default function about() {
 	return (
 		<div>
-			<Head>
-				<title>About</title>
-			</Head>
+			<Meta title='about' />
 			<h1>about</h1>
 		</div>
 	);
